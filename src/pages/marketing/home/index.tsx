@@ -4,7 +4,6 @@ import { Features } from "./sections/features";
 import { Footer } from "./sections/footer";
 import { Header } from "./sections/header";
 import { Hero } from "./sections/hero";
-import { Testimonial } from "./sections/testimonial";
 
 export default function HomePage() {
   return (
@@ -20,7 +19,7 @@ export default function HomePage() {
       <main className="z-10 max-w-384 w-full flex flex-col">
         <Features />
 
-        <Testimonial />
+        {/* <Testimonial /> */}
 
         <FAQ />
 

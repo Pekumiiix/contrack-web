@@ -58,11 +58,11 @@ function FAQItem({ question, answer }: FAQQItemProps) {
   return (
     <div className="w-full flex justify-between gap-8 py-8 px-5 rounded-[20px] border border-black-10 bg-[#FCFCFD]">
       <div className="flex flex-col gap-3">
-        <p className="text-2xl font-semibold leading-11 text-black-90 tracking-[-1%]">
+        <p className="text-lg md:text-xl xl:text-2xl font-semibold md:leading-7.5 xl:leading-11 text-black-90 tracking-[-1%]">
           {question}
         </p>
         {open && (
-          <p className="text-xl font-medium leading-8 tracking-[-1%] text-black-70">
+          <p className="md:text-lg xl:text-xl font-medium leading-7 md:leading-7.5 xl:leading-8 tracking-[-1%] text-black-70">
             {answer}
           </p>
         )}

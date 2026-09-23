@@ -39,7 +39,7 @@ export function Hero() {
           <AddToChromeButton />
         </div>
 
-        <div className="flex flex-col items-center md:items-start gap-3 md:gap-6">
+        {/* <div className="flex flex-col items-center md:items-start gap-3 md:gap-6">
           <p className="text-[11px] md:text-medium leading-5.75 font-medium text-white tracking-[-2%]">
             Recognize by industry leaders and expert
           </p>
@@ -57,7 +57,7 @@ export function Hero() {
               />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
 
       <img

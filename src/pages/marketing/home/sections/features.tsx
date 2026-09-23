@@ -110,7 +110,7 @@ function FeatureCard({
     <div
       className={`flex flex-col items-center gap-10 lg:gap-20 ${reverse ? "md:flex-row-reverse" : "md:flex-row"}`}
     >
-      <div className="basis-full md:basis-1/2 min-w-0 min-h-78.75 h-78.75 lg:h-111.5 flex items-center justify-center rounded-[20px] bg-linear-[180deg,#F7F5FF_0%,#FEF2F6_100%]">
+      <div className="max-md:w-full md:basis-1/2 min-w-0 min-h-78.75 h-78.75 lg:h-111.5 flex items-center justify-center rounded-[20px] bg-linear-[180deg,#F7F5FF_0%,#FEF2F6_100%]">
         <img
           src={imageSrc}
           alt={imageAlt}
